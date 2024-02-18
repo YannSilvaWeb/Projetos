@@ -1,0 +1,67 @@
+
+h1, h2, h3 {
+
+    color: var(--gray-color-950);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-small);
+}
+
+h1 {
+    font-size: var(--text-size-h1);
+}
+
+h2 {
+    font-size: var(--text-size-h2);
+}
+
+h3 {
+    font-size: var(--text-size-h3);
+}
+
+p {
+    color: var(--gray-color-600);
+    font-weight:  var(--font-weight-regular);
+    line-height: var(--line-height-large);
+}
+
+
+.subtitle, .btn, .btn-small {
+
+    font-size: var(--text-size);
+    font-weight:  var(--font-weight-regular);
+    line-height: var(--line-height-medium);
+}
+
+.subtitle {
+    color: var(--gray-color-600);
+}
+
+.btn, .btn-small{
+    display: inline-block;
+    border-radius: 0.6rem;
+    background-color: var(--brand-primary);
+    color: var(--white);
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.btn {  
+    padding: 2.4rem;
+}
+
+.btn-small {
+    padding: 1.2rem 2.4rem;
+}
+
+.btn-small {
+    font-size: var(--text-body-small);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-large);
+}
+
+
+.btn:hover,
+.btn-small:hover {
+    background-color: var(--brand-primary-dark);
+    transform: scale(1.02);
+}

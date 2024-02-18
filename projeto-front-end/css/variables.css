@@ -1,0 +1,29 @@
+:root {
+
+    /** CORES  **/
+    --white: #fff;
+    --brand-primary: #3D55CC;
+    --brand-primary-dark: #343C99;
+    --brand-primary-100: #E0E7F9;
+    --gray-color-950: #0C0E14;
+    --gray-color-600: #3C4965;
+    --gray-color-100: #dde2ea;
+
+    /** PESO DA FONTE **/
+    --font-weight-bold: 700;
+    --font-weight-regular: 400;
+
+    /** ALTURA DA FONTE **/
+    --line-height-large: 150%;
+    --line-height-medium: 125%;
+    --line-height-small: 120%;
+    
+    /** TAMANHO DA FONTE **/
+    --text-size-h1: 5.6rem;
+    --text-size-h2: 4.8rem;
+    --text-size-h3: 2.4rem;
+    --text-size: 1.8rem;
+    --text-size-paragraph: 1.6rem;
+    --text-body-small: 1.4rem;
+    --text-letter: -1.5%;
+}
